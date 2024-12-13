@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import axios from "axios" ; 
 
@@ -17,7 +16,7 @@ function App() {
         <h1 className='heading'>{advice}</h1> 
         <button class="button-50" role="button" onClick={() => {
           fetchData() ; 
-        }}>Double click for the life advice</button>
+        }}>Keep clicking for life advices</button>
       </div>
     </div>
   )
